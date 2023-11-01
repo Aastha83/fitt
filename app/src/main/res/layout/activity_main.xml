@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/abel"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Fit Fusion App"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:id="@+id/idTVHeading"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Fit Fusion"
+        android:textColor="@color/white"
+        android:fontFamily="@font/abel"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_below="@id/idTVHeading"
+        android:id="@+id/idTVSubHeading" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVSubHeading"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/idLLExercise"
+            android:orientation="vertical"
+            android:layout_margin="4dp">
+
+              <com.airbnb.lottie.LottieAnimationView
+                  android:layout_width="150dp"
+                  android:layout_height="150dp"
+                  android:layout_gravity="center"
+                  android:layout_margin="5dp"
+                  app:lottie_autoPlay="true"
+                  android:id="@+id/idLAVExercise" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="See Exercise "
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:fontFamily="@font/abel"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+
+        <!--This linear layout for step counter-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/idLLStepCounter"
+            android:orientation="vertical"
+            android:layout_margin="4dp">
+
+            <!--  for lottie animation -->
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                app:lottie_autoPlay="true"
+                android:id="@+id/idLAVStepCounter" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step Counter"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:fontFamily="@font/abel"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+

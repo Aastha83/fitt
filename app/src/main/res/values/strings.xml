@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="side_plank">
+        Benifits of Plank \n1) Helps improve your posture.\n2) Might provide flexibility.\n3) Helps reduce belly fat.\n4) It can help strenthen your core.\n5) Can help reduce joint and especially back pain.\n6) It can help improve metabolism.
+
+    </string>
+    <string name="lunges">
+        Benifits of Lunges \n1) Helps strengthen your lower body.\n2) Increase core strength.\n3) Helps improve posture.\n4) Alignment and Symmetry.\n5) Weight Loss.\n6) Balance and Stability
+
+    </string>
+    <string name="stepping">
+        Benifits of Stepping \n1) Helps improve cardiovascular health.\n2) Might provide a full-body workout.\n3) Aids in weight management and fat loss.\n4) Can enhance lower body strength, including legs and glutes.\n5) Improves overall stamina and endurance.\n6) Enhances balance and coordination.
+
+    </string>
+
+    <string name="abs_crunches">
+        Benifits of abs crunches \n1) Strengthens abdominal muscles, including rectus abdominis.\n2) May improve posture and core stability.\n3) Helps reduce belly fat when combined with a balanced diet.\n4) Enhances overall core strength and endurance. \n5) Can relieve lower back pain by strengthening core muscles.\n6) Promotes better balance and stability.
+
+    </string>
+
+    <string name="push_ups">
+        Benifits of push ups  \n1) Strengthens abdominal muscles, including rectus abdominis.\n2) May improve posture and core stability.\n3) Helps reduce belly fat when combined with a balanced diet.\n4) Enhances overall core strength and endurance.\n5) Can relieve lower back pain by strengthening core muscles.\n6) Promotes better balance and stability.
+    </string>
+
+
+</resources>
